@@ -7,8 +7,8 @@ import Item from './portfolio/item/Item'
 
 const Index = () => {
   return (
-    <div className="parent">
-      <div className="mxWidth">
+    <div>
+      <div >
         <Router>
           <Nav />
           <Routes>

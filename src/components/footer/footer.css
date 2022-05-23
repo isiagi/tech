@@ -3,11 +3,14 @@
     display: flex;
     gap: 2rem;
     justify-content: space-between;
-    margin: 0 auto;
+    padding: 0 4rem;
     align-items: center;
     line-height: 3rem;
-    background-color: #CC9544;
-    color: #361500;
+    background: url('../../assets/images/footer.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: #007bff;
     width: 100%;
 }
 
@@ -44,5 +47,5 @@
 }
 
 .footer__links div > ul li:hover {
-    color: #361500;
+    color: #007bff;
 }

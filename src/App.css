@@ -16,6 +16,10 @@ html {
 
 body {
   font-size: var(--font-size-sm);
+  background: url('./assets/images/lk.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 a {
@@ -48,6 +52,11 @@ button {
   /* background-color: red; */
   align-items: center;
   flex-direction: column;
+}
+
+.mxWidt {
+  width: 100%;
+  max-width: 1024px;
 }
 
 .parent {

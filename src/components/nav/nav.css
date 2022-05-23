@@ -7,6 +7,12 @@
   background: whitesmoke;
 }
 
+.top {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+
 .nav__container > h1 {
   margin-left: 2rem;
 }

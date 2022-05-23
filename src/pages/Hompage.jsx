@@ -6,15 +6,17 @@ import Service from "../components/services/Service";
 
 const Hompage = () => {
   return (
-    <div className="parent">
-      <div className="mxWidth">
-        <Slider />
-        <Banner1 />
+    <>
+      <Slider />
+      <div className="parent">
+        <div className="mxWidth">
+          <Banner1 />
         <Service />
         <Inter />
         <Out />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

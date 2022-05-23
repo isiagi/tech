@@ -1,13 +1,18 @@
-.slider__container {
+.ok {
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+}
+.slide-container {
     width: 100%;
     max-width: 1024px;
-    min-height: 70vh;
 }
 
 .slider__content {
     min-height: 70vh;
-    /* width: 100%; */
+    width: 100%;
     z-index: -1;
     background: url('../../assets/images/1.jpg') no-repeat;
     background-size: cover;
+    background-position: center;
 }
