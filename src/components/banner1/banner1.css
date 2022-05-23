@@ -1,0 +1,58 @@
+.banner__container {
+    width: 100%;
+    position: relative;
+}
+
+.banner__content1 {
+    height: 15vh;
+    width: 100%;
+    background-color: purple;
+}
+
+.banner__content2 {
+    height: 20vh;
+    width: 20%;
+    background-color: orange;
+    position: absolute;
+    bottom: -15px;
+    left: 40px;
+}
+
+.banner__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    flex-wrap: wrap;
+}
+
+.banner__sample {
+    border-bottom: 1px solid gray;
+}
+
+.banner__content1 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner__input {
+    display: flex;
+    align-items: center;
+}
+
+.banner__input > input {
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+
+.banner__select {
+    padding: 9px;
+    outline: none;
+}
+
+.banner__btn {
+    margin-right: 5rem;
+    margin-left: .5rem;
+    padding: 9px;
+    background-color: #fff;
+}

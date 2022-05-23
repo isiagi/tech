@@ -32,13 +32,22 @@ ul {
   list-style: none;
 }
 
+button {
+  font: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
 .mxWidth {
   width: 100%;
   max-width: 1024px;
   display: flex;
   justify-content: center;
-  background-color: red;
+  /* background-color: red; */
   align-items: center;
+  flex-direction: column;
 }
 
 .parent {

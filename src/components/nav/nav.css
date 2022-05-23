@@ -1,0 +1,46 @@
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  min-height: 10vh;
+  background: whitesmoke;
+}
+
+.nav__container > h1 {
+  margin-left: 2rem;
+}
+
+.nav__list > ul {
+  display: flex;
+}
+
+.nav__list > ul > li {
+  width: 80px;
+}
+
+.nav__drop {
+  position: relative;
+  height: 100%;
+}
+
+.dropdown__menu {
+  width: 100px;
+}
+
+.dropdown__menu {
+  position: absolute;
+  top: calc(100% + 3.5vh);
+  z-index: 1;
+  background-color: rgb(144, 76, 76);
+  padding: 2rem;
+  line-height: 2.4rem;
+  width: calc(100% + 17vw);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.nav__drop > .nav__btn:focus + .dropdown__menu {
+    opacity: 1;
+    pointer-events: auto;
+}
