@@ -5,7 +5,7 @@ const Service = () => {
   return (
     <div className="service__container">
       <div className="service__wrapper">
-        <h2>What We Offer</h2>
+        <h2>Our Features</h2>
         {/* <p>We offer a variety of services for you and your business.</p> */}
       </div>
       <div className="service__grid">

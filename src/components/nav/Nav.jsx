@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./nav.css";
 
 const Nav = () => {
@@ -8,28 +9,28 @@ const Nav = () => {
 
         <div className="nav__list">
           <ul>
-            <li>Home</li>
+            <li><Link to='/'>Home</Link></li>
             <li>
               <div className="nav__drop">
                 <button className="nav__btn">Services</button>
                 <div className="dropdown__menu">
                   <div>
                     <div className="dropdown__links">
-                      <p>Buy Domain</p>
-                      <p>Website Development and Web Hosting</p>
-                      <p>Wireless Internet</p>
-                      <p>Software Development</p>
-                      <p>Social and Digital Marketing</p>
-                      <p>IT Constancy</p>
-                      <p>Computer system sales and maintenance</p>
+                      <p><Link to='/domain'>Buy Domain</Link></p>
+                      <p><Link to='/website'>Website Development and Web Hosting</Link></p>
+                      <p><Link to='/wireless'>Wireless Internet</Link></p>
+                      <p><Link to='/software'>Software Development</Link></p>
+                      <p><Link to='/marketing'>Social and Digital Marketing</Link></p>
+                      <p><Link to='/it'>IT Constancy</Link></p>
+                      <p><Link to='/system'>Computer system sales and maintenance</Link></p>
                     </div>
                   </div>
                 </div>
               </div>
             </li>
-            <li>About</li>
-            <li>Contact</li>
-            <li>Portfolio</li>
+            <li><Link to='/about'>About</Link></li>
+            <li><Link to='/contact'>Contact</Link></li>
+            <li><Link to='/portfolio'>Portfolio</Link></li>
           </ul>
         </div>
       </div>

@@ -3,20 +3,26 @@ import Footer from "../components/footer/Footer";
 import Nav from "../components/nav/Nav";
 import Hompage from "./Hompage";
 import Port from "./portfolio/Portfolio";
-import Item from './portfolio/item/Item'
+import Item from "./portfolio/item/Item";
+import Domain from "./domain/Domain";
+import About from "./about/About";
+import Wireless from "./wireless/Wireless";
 
 const Index = () => {
   return (
     <div>
-      <div >
+      <div>
         <Router>
           <Nav />
           <Routes>
             <Route path="/" element={<Hompage />} />
-            <Route path='/portfolio' element={<Port />} >
-              <Route path='all' element={<Item />} />
-              <Route path='edu' element={<Item />} />
+            <Route path="/portfolio" element={<Port />}>
+              <Route path="all" element={<Item />} />
+              <Route path="edu" element={<Item />} />
             </Route>
+            <Route path="/domain" element={<Domain />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/wireless" element={<Wireless />} />
           </Routes>
           <Footer />
         </Router>

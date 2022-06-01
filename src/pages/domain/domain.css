@@ -1,0 +1,73 @@
+.domain__container {
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.pad {
+    padding: 0 4rem;
+}
+
+.domain__content {
+    min-height: 60vh;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url('../../assets/images/domain.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.domain__input {
+    display: flex;
+    align-items: center;
+}
+
+.domain__input > input {
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+
+.domain__select {
+    padding: 14px 35px;
+    outline: none;
+    font-size: 1em;
+}
+
+.domain__btn {
+    margin-right: 5rem;
+    margin-left: .5rem;
+    padding: 14px 35px;
+    background-color: #fff;
+}
+
+.domain__input > input {
+    flex: .9;
+    font-size: 1em;
+}
+
+.domain__col {
+    display: flex;
+    gap: 2em;
+    margin: 2rem 0;
+}
+
+.domain__col > div > h3 {
+    font-weight: lighter;
+    background: #007bff;
+    color: #fff;
+    padding:0 1em;
+}
+
+.domain__sel {
+    display: flex;
+    background: red;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.domain__sel > button {
+    background-color: #CC9544;
+    padding: 0.7em;
+}

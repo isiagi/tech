@@ -50,3 +50,7 @@
     opacity: 1;
     pointer-events: auto;
 }
+
+.dropdown__links > p > a:focus {
+  pointer-events: auto;
+}

@@ -9,7 +9,7 @@ const Banner1 = () => {
             <div className="banner__sample">
               .com $ 6.99 / .net $ 4.99 / .co $ 2.77 / .org $ 4.90
             </div>
-            <div>Get your online version</div>
+            <div className="banner__hey">Get your online version</div>
           </div>
           <div className="banner__input">
             <input type="text" className="banner__input" />
@@ -22,7 +22,9 @@ const Banner1 = () => {
           </div>
         </div>
       </div>
-      <div className="banner__content2"></div>
+      <div className="banner__content2">
+        Search for your online Name
+      </div>
     </div>
   );
 };

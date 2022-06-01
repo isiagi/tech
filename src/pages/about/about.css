@@ -1,0 +1,29 @@
+.about__container {
+    min-height: 40vh;
+    background: url('../../assets/images/wire.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.about__content1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.about__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .about__text > h2 {
+    font-weight: lighter;
+    font-size: var(--font-size-lg);
+} */
+
+.about__text > p {
+    /* font-weight: lighter; */
+    /* font-size: var(--font-size-md); */
+    line-height: 2em;
+}

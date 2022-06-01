@@ -6,16 +6,19 @@
 .banner__content1 {
     height: 15vh;
     width: 100%;
-    background-color: purple;
+    background-color: #303030;
 }
 
 .banner__content2 {
     height: 20vh;
-    width: 20%;
-    background-color: orange;
+    width: 15%;
+    background-color: #eee;
     position: absolute;
     bottom: -15px;
-    left: 40px;
+    left: 20px;
+    color: #007bff;
+    display: grid;
+    place-items: center;
 }
 
 .banner__wrapper {
@@ -23,10 +26,12 @@
     align-items: center;
     gap: 70px;
     flex-wrap: wrap;
+    margin-left: 9rem;
 }
 
 .banner__sample {
     border-bottom: 1px solid gray;
+    color: #eee;
 }
 
 .banner__content1 {
@@ -48,11 +53,18 @@
 .banner__select {
     padding: 9px;
     outline: none;
+    background-color:#228B22;
+    color: #fff;
 }
 
 .banner__btn {
     margin-right: 5rem;
     margin-left: .5rem;
-    padding: 9px;
-    background-color: #fff;
+    padding: 6px;
+    background-color:#228B22;
+    color: #fff;
+}
+
+.banner__hey {
+    color: #8b9698;
 }
