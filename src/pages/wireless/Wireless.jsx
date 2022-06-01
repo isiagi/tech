@@ -1,8 +1,12 @@
 import "./wireless.css";
 import img from '../../assets/images/less.jpg'
 import Inter from "../../components/inter/Inter";
+import React from "react";
 
 const Wireless = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="parent">
       <div className="mxWidt gh">

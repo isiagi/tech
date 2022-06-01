@@ -1,70 +1,76 @@
 .banner__container {
-    width: 100%;
-    position: relative;
+  width: 100%;
+  position: relative;
 }
 
 .banner__content1 {
-    height: 15vh;
-    width: 100%;
-    background-color: #303030;
+  height: 15vh;
+  width: 100%;
+  background-color: #303030;
 }
 
 .banner__content2 {
-    height: 20vh;
-    width: 15%;
-    background-color: #eee;
-    position: absolute;
-    bottom: -15px;
-    left: 20px;
-    color: #007bff;
-    display: grid;
-    place-items: center;
+  height: 20vh;
+  width: 15%;
+  background-color: #eee;
+  position: absolute;
+  bottom: -15px;
+  left: 20px;
+  color: #007bff;
+  display: flex;
+  align-items: center; 
+  font-size: 1.3em;
 }
 
 .banner__wrapper {
-    display: flex;
-    align-items: center;
-    gap: 70px;
-    flex-wrap: wrap;
-    margin-left: 9rem;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  flex-wrap: wrap;
+  margin-left: 9rem;
 }
 
 .banner__sample {
-    border-bottom: 1px solid gray;
-    color: #eee;
+  border-bottom: 1px solid gray;
+  color: #eee;
 }
 
 .banner__content1 {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .banner__input {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .banner__input > input {
-    padding: 10px;
-    outline: none;
-    border: none;
+  padding: 10px;
+  outline: none;
+  border: none;
 }
 
 .banner__select {
-    padding: 9px;
-    outline: none;
-    background-color:#228B22;
-    color: #fff;
+  padding: 9px;
+  outline: none;
+  background-color: #228b22;
+  color: #fff;
+  border: none;
 }
 
 .banner__btn {
-    margin-right: 5rem;
-    margin-left: .5rem;
-    padding: 6px;
-    background-color:#228B22;
-    color: #fff;
+  margin-right: 5rem;
+  margin-left: 0.5rem;
+  padding: 6px;
+  background-color: #228b22;
+  color: #fff;
 }
 
 .banner__hey {
-    color: #8b9698;
+  color: #8b9698;
+}
+
+.banner__contentT {
+  color: #228b22;
 }

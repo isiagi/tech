@@ -23,7 +23,7 @@ const Banner1 = () => {
         </div>
       </div>
       <div className="banner__content2">
-        Search for your online Name
+        Search for your<span className="banner__contentT">online Name</span>
       </div>
     </div>
   );

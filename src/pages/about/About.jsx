@@ -1,11 +1,16 @@
 import "./about.css";
 import img from "../../assets/images/mission.jpg";
 import img1 from "../../assets/images/vision.jpg";
+import React from "react";
 
 const About = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="parent">
-      <div className="mxWidt">
+      <div className="mxWidt about">
         <div className="about__container">
           <h1>About</h1>
         </div>

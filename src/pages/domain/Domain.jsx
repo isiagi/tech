@@ -1,6 +1,11 @@
+import React from "react";
 import "./domain.css";
 
 const Domain = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="parent">
       <div className="mxWidt domain__container">
@@ -38,7 +43,7 @@ const Domain = () => {
                 <h3>$ 12</h3>
               </div>
             </div>
-            <div>
+            <div className="domain__result">
               <h4>Check out our Pricing</h4>
               <p>Domain Results</p>
               <p>

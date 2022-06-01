@@ -1,0 +1,15 @@
+.software__container {
+    min-height: 100vh;
+}
+
+.software__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    height: 100%;
+    background-color: #fff;
+}
+
+.software__grid > div > img {
+    height: 100%;
+    object-fit: contain;
+}

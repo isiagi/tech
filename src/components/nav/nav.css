@@ -19,10 +19,13 @@
 
 .nav__list > ul {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav__list > ul > li {
   width: 80px;
+  color: #007bff;
 }
 
 .nav__drop {
