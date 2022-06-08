@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+
 :root {
   --font-size-sm: 1.6rem;
   --font-size-md: 2rem;
@@ -16,6 +18,11 @@ html {
 
 body {
   font-size: var(--font-size-sm);
+  background: url("./assets/images/lk.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
@@ -32,13 +39,27 @@ ul {
   list-style: none;
 }
 
+button {
+  font: inherit;
+  color: inherit;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
 .mxWidth {
   width: 100%;
   max-width: 1024px;
   display: flex;
   justify-content: center;
-  background-color: red;
+  /* background-color: red; */
   align-items: center;
+  flex-direction: column;
+}
+
+.mxWidt {
+  width: 100%;
+  max-width: 1024px;
 }
 
 .parent {

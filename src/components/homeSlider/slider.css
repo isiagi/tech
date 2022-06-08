@@ -1,0 +1,30 @@
+.ok {
+    display: flex;
+    justify-content: center;
+    min-height: 70vh;
+}
+.slide-container {
+    width: 100%;
+    max-width: 1024px;
+}
+
+.slider__content {
+    min-height: 80vh;
+    width: 100%;
+    z-index: -1;
+    background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),url('../../assets/images/1.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.caption__heading {
+    font-size: 3rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.caption__content > ul > li {
+    line-height: 4rem;
+    font-size: 1.3em;
+    color: #fff;
+}

@@ -1,0 +1,101 @@
+.domain__container {
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.pad {
+  padding: 0 4rem;
+}
+.pad > h3 {
+    padding-top: 6rem;
+    font-size: 2em;
+  }
+
+.domain__content {
+  min-height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../../assets/images/domain.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.domain__inpu {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.domain__inpu > input {
+  padding: 15px;
+  outline: none;
+  border: none;
+}
+
+.domain__select {
+  padding: 14px 35px;
+  outline: none;
+  font-size: 1em;
+  background-color: #228b22;
+  color: #fff;
+  border: none;
+}
+
+.domain__btn {
+  margin-right: 5rem;
+  margin-left: 0.5rem;
+  padding: 11px 35px;
+  background-color: #228b22;
+  color: #fff;
+  cursor: pointer;
+}
+
+.domain__inpu > input {
+  flex: 0.9;
+  font-size: 1em;
+}
+
+.domain__col {
+  display: flex;
+  gap: 2em;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.domain__col > div > h3 {
+  font-weight: lighter;
+  background: #007bff;
+  color: #fff;
+  padding: 0 1em;
+}
+
+.domain__sel {
+  display: flex;
+  background: #eee;
+  justify-content: space-between;
+  padding: 1em;
+  align-items: center;
+  color: #000;
+}
+
+.domain__sel > h3 {
+  font-weight: lighter;
+}
+
+.domain__sel > button {
+  background-color: #228b22;
+  color: #fff;
+  padding: 0.7em;
+}
+
+.domain__result {
+    text-align: center;
+}
+
+.domain__result > h4 {
+    font-size: 1.6em;
+}
+
+.domain__reg {
+    margin-top: 3em;
+}

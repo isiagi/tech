@@ -1,13 +1,29 @@
 import React from "react";
-import Nav from "../components/nav/Nav";
+import Banner1 from "../components/banner1/Banner1";
+import Slider from "../components/homeSlider/Slider";
+import Inter from "../components/inter/Inter";
+import Out from "../components/out/Out";
+import Service from "../components/services/Service";
+import Software from "../components/software/Software";
 
 const Hompage = () => {
+  React.useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <div className="parent">
-      <div className="mxWidth">
-          <Nav />
+    <>
+      <Slider />
+      <div className="parent">
+        <div className="mxWidth">
+          <Banner1 />
+          <Service />
+          <Inter />
+          <Software />
+          <Out />
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

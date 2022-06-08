@@ -1,0 +1,28 @@
+.port__container {
+    min-height: 100vh;
+    background: white;
+    width: 100%;
+}
+
+.port__wrapper {
+    display: flex;
+    gap: 0.5em;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+ .port__link {
+   background-color: #361500;
+   margin-top: 9rem;
+   color: #fff;
+   padding: 1rem;
+   border-radius: 15px;
+}
+
+.port__link:hover {
+    background-color: #CC9544;
+}
+
+.port__link.active {
+    background-color: #CC9544;
+}
