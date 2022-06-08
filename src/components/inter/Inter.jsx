@@ -6,14 +6,14 @@ const Inter = () => {
   return (
     <div className="container inter__container">
       <div>
-        <h2 style={{color: '#603601', paddingBlock: '3rem', fontSize: '3rem'}}>Connect to Wireless Internet</h2>
-        <p style={{maxWidth: '700px', margin: '0 auto'}}>
+        <h2 style={{color: '#007bff', paddingBlock: '3rem', fontSize: '3rem'}}>Connect to Wireless Internet</h2>
+        <p style={{maxWidth: '700px', margin: '0 auto',color: '#303030'}}>
         HappiTech helps organisations connect with their target audience through
           user-focused designs, purposeful content and sustainable technology.
         </p>
         <div className="inter__wrapper">
           <div className="inter__card1">
-            <h2 style={{textAlign: 'center', backgroundColor: '#CC9544'}}>Normal</h2>
+            <h2 style={{textAlign: 'center', backgroundColor: '#303030'}}>Normal</h2>
             <div className="inter__card">
               <ul>
                 <li>UGX 130000</li>

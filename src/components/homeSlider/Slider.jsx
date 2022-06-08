@@ -3,6 +3,7 @@ import "react-slideshow-image/dist/styles.css";
 import img1 from "../../assets/images/1.jpg";
 import img2 from "../../assets/images/2.jpg";
 import img3 from "../../assets/images/3.jpg";
+import img4 from "../../assets/images/domain.jpg";
 
 import {CgWebsite} from 'react-icons/cg'
 
@@ -25,6 +26,10 @@ const fadeImages = [
   {
     url: img3,
     caption: "Build Your Team With African Developers",
+  },
+  {
+    url: img4,
+    caption: "Buy Domains and Display your online identity",
   },
 ];
 

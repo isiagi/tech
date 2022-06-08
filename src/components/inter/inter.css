@@ -21,8 +21,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #603601;
-    color: var(--light-color);
+    background: #007bff;
+    color: #fff;
     clip-path: polygon(0 0, 100% 0, 100% 84%, 50% 100%, 0 84%, 0 0);
     line-height: 3rem;
     padding: 2rem;
@@ -36,5 +36,5 @@
 .inter__card1 > h2 {
     margin-block: 2rem;
     padding: 1rem;
-    color: #603601;
+    color: #228b22;
 }

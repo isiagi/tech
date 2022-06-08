@@ -1,0 +1,11 @@
+.contact__container {
+    min-height: 50vh;
+    background: url('../../assets/images/wire.jpg') no-repeat;
+    background-size: cover;
+}
+
+.contact__gird {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 1rem;
+}
