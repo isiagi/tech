@@ -1,0 +1,27 @@
+.web__container {
+  min-height: 50vh;
+  background: url("../../assets/images/wire.jpg") no-repeat;
+  background-size: cover;
+}
+
+.web__card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.web__card .web__card__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.web__icon {
+    font-size: 3rem;
+}
+
+.web__card__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}

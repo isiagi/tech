@@ -15,8 +15,7 @@ const Contact = () => {
             <h3>Contact</h3>
             <h4>Drop Us Message for Any Query</h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod.
+              We are glad and looking forward to hear from you
             </p>
           </div>
           <div className="contact__gird">

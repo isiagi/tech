@@ -39,7 +39,7 @@
 
 .dropdown__menu {
   position: absolute;
-  top: calc(100% + 3vh);
+  top: calc(100% + 2.7vh);
   z-index: 1;
   background-color: #eee;
   padding: 2rem;
