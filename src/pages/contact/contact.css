@@ -1,11 +1,82 @@
 .contact__container {
-    min-height: 50vh;
-    background: url('../../assets/images/wire.jpg') no-repeat;
-    background-size: cover;
+  min-height: 50vh;
+  background: url("../../assets/images/wire.jpg") no-repeat;
+  background-size: cover;
 }
 
 .contact__gird {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.form__row {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+}
+
+.form__row > input {
+  width: 45%;
+  outline: none;
+  border: 1px solid green;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1em;
+}
+
+.textarea textarea {
+  width: 90%;
+  max-width: 100%;
+  outline: none;
+  resize: none;
+  border: 1px solid green;
+}
+
+.form__btn button {
+  background-color: #007bff;
+  padding: 0.7rem;
+  margin-top: 0.7rem;
+  color: #fff;
+}
+
+.contact__text {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.contact__text > p {
+  width: 60%;
+  margin: 0.5rem auto;
+}
+
+.contact__text > h4 {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.contact__text > h3 {
+  color: green;
+}
+
+.contact__map {
+  width: 100%;
+}
+
+.contact__info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.contact__info .icon {
+  font-size: 3rem;
+  width: 100%;
+}
+
+.contact__info > div {
+  max-width: 300px;
+  margin:5rem 0;
 }
