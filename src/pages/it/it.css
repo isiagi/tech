@@ -1,0 +1,29 @@
+.it__container {
+  min-height: 50vh;
+  background: url("../../assets/images/wire.jpg") no-repeat;
+  background-size: cover;
+}
+
+.it__section {
+    margin: 0 10px;
+}
+
+.it__section h2 {
+    text-align: center;
+    margin-block: 2rem;
+    color: #228b22;
+}
+
+.it__img > img{
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 1rem;
+    height: 70vh;
+}
+
+.it__icons {
+    color: #007bff;
+}

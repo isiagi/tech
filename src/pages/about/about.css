@@ -17,17 +17,20 @@
     justify-content: center;
 }
 
-/* .about__text > h2 {
-    font-weight: lighter;
-    font-size: var(--font-size-lg);
-} */
-
 .about__text > p {
-    /* font-weight: lighter; */
-    /* font-size: var(--font-size-md); */
     line-height: 2em;
 }
 
 .about {
     background-color: #eee;
+}
+
+.about__sec > h2 {
+    text-align: center;
+    margin-block: 3rem;
+    color: #007bff;
+}
+
+.about__text > h2 {
+    color: #228b22;
 }
