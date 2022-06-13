@@ -12,6 +12,7 @@ import Contact from "./contact/Contact"
 import Website from "./websit/Website";
 import Software from "./soft/Software";
 import It from "./it/It";
+import Marketing from "./marketing/Marketing";
 
 const Index = () => {
   return (
@@ -31,6 +32,7 @@ const Index = () => {
             <Route path="/contact" element={<Contact />} />
             <Route path="/website" element={<Website />} />
             <Route path="/software" element={<Software />} />
+            <Route path="/marketing" element={<Marketing />} />
             <Route path="/it" element={<It />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
