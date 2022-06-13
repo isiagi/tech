@@ -7,10 +7,10 @@ import { MdWifiCalling } from "react-icons/md";
 const Website = () => {
   return (
     <div className="parent">
-      <div className="mxWidt">
+      <div className="mxWidt bg">
         <div className="web__container"></div>
-        <div>
-          <div>
+        <div className="web__section">
+          <div className="img">
             <img src={img} alt="website_development" />
           </div>
           <h1>Website Development And Web Hosting</h1>

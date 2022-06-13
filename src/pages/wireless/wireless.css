@@ -10,6 +10,12 @@
 
 .wire__love {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     font-size: 1.65rem;
+    gap: 1rem;
+}
+
+.wire__text > p {
+    line-height: 3rem;
+    /* font-size: 1.1em; */
 }

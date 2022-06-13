@@ -31,8 +31,7 @@ const Domain = () => {
     axiosConfig
       .post("/domain", { domain: inpu })
       .then((res) => {
-        const result = res.json();
-        console.log(result);
+        console.log(res);
       })
       .catch((err) => {
         // alert(JSON.stringify(err));
@@ -50,6 +49,7 @@ const Domain = () => {
           <div className="pad">
             <h3>Find Your Perfect Name</h3>
             <p>Domain Search</p>
+            <p>{inpu}</p>
             <div className="domain__inpu">
               <input
                 type="text"

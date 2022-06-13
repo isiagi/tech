@@ -1,7 +1,20 @@
+.bg {
+    background: #eee;
+}
+
 .web__container {
   min-height: 50vh;
   background: url("../../assets/images/wire.jpg") no-repeat;
   background-size: cover;
+}
+
+.web__section {
+    margin: 0 10px;
+}
+
+.web__section h1 {
+    text-align: center;
+    margin-block: 1rem;
 }
 
 .web__card {
@@ -15,6 +28,10 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
+    border:1px solid black;
+    margin-block: 2rem;
+    padding: 2rem;
+    border-radius: 2rem;
 }
 
 .web__icon {
@@ -24,4 +41,19 @@
 .web__card__grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+    gap: 1rem;
+}
+
+.web__card__grid p {
+    line-height: 3rem;
+}
+
+.img > img{
+    display: block;
+    margin: 1rem auto;
+    max-width: 100%;
+    width: 80%;
+    object-fit: cover;
+    border-radius: 1rem;
 }

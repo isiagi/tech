@@ -10,6 +10,7 @@ import Wireless from "./wireless/Wireless";
 import NotFound from "./notFound/NotFound";
 import Contact from "./contact/Contact"
 import Website from "./websit/Website";
+import Software from "./soft/Software";
 
 const Index = () => {
   return (
@@ -28,6 +29,7 @@ const Index = () => {
             <Route path="/wireless" element={<Wireless />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/website" element={<Website />} />
+            <Route path="/software" element={<Software />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />

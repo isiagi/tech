@@ -18,12 +18,28 @@ const Contact = () => {
               We are glad and looking forward to hear from you
             </p>
           </div>
+          <div className="contact__info">
+            <div>
+              <CgPhone className="icon" />
+              <p>+256 785988864</p>
+              <p>+256 758914876</p>
+            </div>
+            <div>
+              <GrMapLocation className="icon" />
+              <p>Ham Towers,Level 3, RM HT28 Opp Makerere Main Gate, Kampala</p>
+            </div>
+            <div>
+              <AiOutlineMail className="icon" />
+              <p>manisa@happitechcorporation.com</p>
+              <p>info@happitechcorporation.com</p>
+            </div>
+          </div>
           <div className="contact__gird">
             <div
               style={{
                 width: "100%",
                 height: "100%",
-                backgroundColor: "green",
+              
               }}
             >
               <img src={img} alt="" />
@@ -47,22 +63,6 @@ const Contact = () => {
                   </button>
                 </div>
               </form>
-            </div>
-          </div>
-          <div className="contact__info">
-            <div>
-              <CgPhone className="icon" />
-              <p>+256 785988864</p>
-              <p>+256 758914876</p>
-            </div>
-            <div>
-              <GrMapLocation className="icon" />
-              <p>Ham Towers,Level 3, RM HT28 Opp Makerere Main Gate, Kampala</p>
-            </div>
-            <div>
-              <AiOutlineMail className="icon" />
-              <p>manisa@happitechcorporation.com</p>
-              <p>info@happitechcorporation.com</p>
             </div>
           </div>
           <div className="contact__map">

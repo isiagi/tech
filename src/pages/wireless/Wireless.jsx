@@ -12,7 +12,7 @@ const Wireless = () => {
       <div className="mxWidt gh">
         <div className="wireless__container"></div>
         <div>
-          <p style={{ color: "#1C0A00" }}>
+          <p style={{ color: "#1C0A00", maxWidth:'450px', textAlign: 'center',margin: '3rem auto' }}>
             We provide wireless internet to businesses and Individuals to enable
             them achieve their best business and normal social operations
           </p>
@@ -27,7 +27,7 @@ const Wireless = () => {
               creating a world where Internet is not limited to Data Bundles,
               availing internet to everyone in all areas of uganda, in all Homes
             </p>
-            <p>
+            <p style={{marginTop: '20px'}}>
               We strictly offer wireless internet services, unlimited with no
               limitation to internet bundles, we only charge mbps.
             </p>
