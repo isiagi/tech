@@ -1,0 +1,26 @@
+.soft__container {
+  min-height: 50vh;
+  background: url("../../assets/images/soft.jpg") no-repeat;
+  background-size: cover;
+  /* background-position: center; */
+}
+
+.soft__img {
+  border-radius: 56% 44% 73% 27% / 45% 68% 32% 55%;
+}
+
+.ye__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+    margin-block: 5rem;
+    gap: .5rem;
+}
+
+.soft__section {
+  margin: 0 10px;
+}
+
+.soft__section  h3 {
+  margin: 0 auto;
+}

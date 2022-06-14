@@ -8,11 +8,12 @@ import Domain from "./domain/Domain";
 import About from "./about/About";
 import Wireless from "./wireless/Wireless";
 import NotFound from "./notFound/NotFound";
-import Contact from "./contact/Contact"
+import Contact from "./contact/Contact";
 import Website from "./websit/Website";
 import Software from "./soft/Software";
 import It from "./it/It";
 import Marketing from "./marketing/Marketing";
+import System from "./system/System";
 
 const Index = () => {
   return (
@@ -34,6 +35,7 @@ const Index = () => {
             <Route path="/software" element={<Software />} />
             <Route path="/marketing" element={<Marketing />} />
             <Route path="/it" element={<It />} />
+            <Route path="/system" element={<System />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
           <Footer />
