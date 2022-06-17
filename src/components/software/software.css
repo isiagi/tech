@@ -1,5 +1,5 @@
 .software__container {
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .software__grid {
@@ -7,9 +7,16 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     height: 100%;
     background-color: #fff;
+    place-items: center;
 }
 
 .software__grid > div > img {
     height: 100%;
-    object-fit: contain;
+    object-fit: cover;
+}
+
+.software__content ul li {
+    line-height: 6rem;
+    font-weight: 600;
+
 }

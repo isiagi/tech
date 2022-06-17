@@ -17,9 +17,9 @@ const Service = () => {
             <h4>Domain Services</h4>
             <p>
               {" "}
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              a voluptate odio accusamus ipsam quis architecto accusantium
-              aliquam
+              We sell generic domain services to help you acquire you online
+              name up and running at an affordable price with a range of Tll's
+              suitable for your business worldwide.
             </p>
           </div>
         </div>
@@ -31,9 +31,9 @@ const Service = () => {
             <h4>Wireless Internet</h4>
             <p>
               {" "}
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              a voluptate odio accusamus ipsam quis architecto accusantium
-              aliquam
+              We provide wireless internet to businesses and Individuals to
+              enable them achieve their best business and normal social
+              operations.We only charge mbps.
             </p>
           </div>
         </div>
@@ -45,9 +45,9 @@ const Service = () => {
             <h4>Web Hosting and Development</h4>
             <p>
               {" "}
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              a voluptate odio accusamus ipsam quis architecto accusantium
-              aliquam
+              We help business with web development which involves design and
+              development of websites, as well as Web Hosting where we serve
+              your apps to the internet.
             </p>
           </div>
         </div>
@@ -59,9 +59,9 @@ const Service = () => {
             <h4>Software Development</h4>
             <p>
               {" "}
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              a voluptate odio accusamus ipsam quis architecto accusantium
-              aliquam
+              Developing software that meets specific business requirements is
+              necessary for survival in today’s competitive era and custom
+              software development has become an ideal solution for businesses.
             </p>
           </div>
         </div>
@@ -73,9 +73,9 @@ const Service = () => {
             <h4>Social and digital media marketing</h4>
             <p>
               {" "}
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              a voluptate odio accusamus ipsam quis architecto accusantium
-              aliquam
+              We aim at helping clients and business have amazing presence on
+              the internet that will help them in achieving their marketing
+              goals at large. We handle all social and digital platform.
             </p>
           </div>
         </div>
@@ -87,9 +87,9 @@ const Service = () => {
             <h4>IT Consultancy</h4>
             <p>
               {" "}
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
-              a voluptate odio accusamus ipsam quis architecto accusantium
-              aliquam
+              Growing digitalization and an increased focus on on-demand
+              services, have prompted companies to rapidly launch enterprise
+              applications offering a consistent user experience across devices.
             </p>
           </div>
         </div>

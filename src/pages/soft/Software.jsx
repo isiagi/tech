@@ -8,7 +8,7 @@ const Software = () => {
         <div className="soft__container"></div>
         <div className="soft__section">
           <h2 style={{textAlign: 'center', marginBlock: "2rem"}}>custom software development</h2>
-          <p>
+          <p style={{ marginBottom: "5rem"}}>
             Developing software that meets specific business requirements is
             necessary for survival in today’s competitive era and custom
             software development has become an ideal solution for businesses.
